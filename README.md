@@ -1,39 +1,31 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# DateTime Conversion and Extensions Library for Dart/Flutter
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+The DateTime Conversion and Extensions Library for Dart/Flutter is a powerful and versatile tool
+designed to simplify the manipulation of DateTime objects in your projects. This library provides
+bidirectional conversion features between DateTime objects and strings, along with useful extensions
+to optimize the use of DateTime objects, including timezone support.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Key Features
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- **Simplified Conversion:** Easily transform DateTime objects into formatted strings for display or
+  storage, and also perform the reverse conversion.
 
-## Features
+- **Timezone Support:** Effortlessly handle timezones when converting DateTime objects to strings
+  and vice versa, making it ideal for applications with international users.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Utility Extensions:** Benefit from a set of extensions for DateTime objects, such as calculating
+  time differences, adding or subtracting durations, date comparison, and much more.
 
-## Getting started
+## Usage Examples
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### Conversion from DateTime to Strings
 
 ```dart
-const like = 'sample';
+import 'package:date_time_format/date_time_format.dart';
+
+void main() {
+  CrystalFmt formatter = CrystalFmt.ofPattern(formatStyle: CrystalFormatStyle.DMY);
+  print(
+      "Date : ${formatter.format(dateTime: DateTime.now())}");
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
