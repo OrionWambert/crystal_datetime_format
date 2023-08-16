@@ -1,0 +1,4 @@
+enum CrystalHourStyle {
+  LONG,
+  SHORT;
+}
