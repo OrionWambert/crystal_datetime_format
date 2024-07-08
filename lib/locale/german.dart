@@ -1,4 +1,4 @@
-import 'package:date_time_format/locale/crystal_local.dart';
+import 'package:crystal_date_time_format/locale/crystal_local.dart';
 
 class CrystalGermanLocale extends AbstractCrystalLocale {
   @override

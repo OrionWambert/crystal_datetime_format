@@ -1,6 +1,6 @@
-import 'package:date_time_format/date_time_format.dart';
-import 'package:date_time_format/extension/crystal_on_string.dart';
-import 'package:date_time_format/locale/crystal_local.dart';
+import 'package:crystal_date_time_format/extension/crystal_on_string.dart';
+import 'package:crystal_date_time_format/locale/crystal_local.dart';
+import 'package:crystal_date_time_format/locale/english.dart';
 
 class CrystalDateTimeUtil {
   CrystalDateTimeUtil._();

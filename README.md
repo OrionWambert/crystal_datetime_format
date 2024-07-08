@@ -21,7 +21,7 @@ to optimize the use of DateTime objects, including timezone support.
 ### Conversion from DateTime to Strings
 
 ```dart
-import 'package:date_time_format/date_time_format.dart';
+import 'package:crystal_date_time_format/crystal_date_time_format.dart';
 
 void main() {
   CrystalFmt formatter = CrystalFmt.ofPattern(formatStyle: CrystalFormatStyle.DMY);

@@ -1,7 +1,7 @@
-import 'package:date_time_format/core/crystal_hour_style.dart';
-import 'package:date_time_format/date_time_format.dart';
-import 'package:date_time_format/exceptions/date_not_defined.dart';
-import 'package:date_time_format/locale/crystal_local.dart';
+import 'package:crystal_date_time_format/core/crystal_hour_style.dart';
+import 'package:crystal_date_time_format/date_time_format.dart';
+import 'package:crystal_date_time_format/exceptions/date_not_defined.dart';
+import 'package:crystal_date_time_format/locale/crystal_local.dart';
 import 'package:flutter/material.dart';
 
 import '../exceptions/pattern_not_found.dart';
@@ -108,8 +108,7 @@ class CrystalFmt {
   }
 
   String _styleFormatter(CrystalFormatStyle formatStyle,
-      {DateTime? dateTime,
-      required AbstractCrystalLocale locale}) {
+      {DateTime? dateTime, required AbstractCrystalLocale locale}) {
     StringBuffer buffer = StringBuffer();
 
     switch (formatStyle) {
